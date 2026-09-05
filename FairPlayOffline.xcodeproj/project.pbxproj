@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B69B49159066C20FF486440 /* KinescopeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DF81BA3FEF331B2AD934A /* KinescopeAPITests.swift */; };
+		10EE632AB9E0874E9D54D7A1 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B0600AFB19E89FB48C70D /* AppModel.swift */; };
+		25A1BEC5334989AE17210303 /* KinescopeVideoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71182717FF159276205CC0 /* KinescopeVideoStore.swift */; };
+		3EEAA7E9686D2A6F8F9034B9 /* FairPlayOfflineKit in Frameworks */ = {isa = PBXBuildFile; productRef = EBE9F5DEC4EB80C839A7D7A7 /* FairPlayOfflineKit */; };
+		584859962767AB81A7C58B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15D4A6943200AAF20F89221 /* ContentView.swift */; };
+		65C9DCA78859B52DE370EA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FA72DCC56641C71E430B1D /* Assets.xcassets */; };
+		6DBAE7DFC8E2FC1A95C1A393 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47586C605F426789E6B7D5 /* AppLogger.swift */; };
+		8F3B99E2B773A5B1EE303240 /* FairPlayOfflineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F56D4D0F61D86DEACD1B032 /* FairPlayOfflineApp.swift */; };
+		BBBFCD1F227563EA8525028F /* KinescopeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C7A179C99809FA04714FD /* KinescopeAPI.swift */; };
+		EC6202C925F6069A4C495D3E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCB31B4AD4EEA703B5F024 /* Config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB24CF95A575DC1DFB3714F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8B4D77DF013B1F8F0C25295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59C36107F8C838ACE4C88702;
+			remoteInfo = FairPlayOffline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19FA72DCC56641C71E430B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FCB31B4AD4EEA703B5F024 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3681357D2B552B6AB6A26160 /* FairPlayOfflineKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FairPlayOfflineKit; sourceTree = SOURCE_ROOT; };
+		443C4AFE730C80FD07E69FB3 /* FairPlayOfflineTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairPlayOfflineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501EE70FE1D7668725B91D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		636C7A179C99809FA04714FD /* KinescopeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinescopeAPI.swift; sourceTree = "<group>"; };
+		663B0600AFB19E89FB48C70D /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		6A71182717FF159276205CC0 /* KinescopeVideoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinescopeVideoStore.swift; sourceTree = "<group>"; };
+		6F56D4D0F61D86DEACD1B032 /* FairPlayOfflineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairPlayOfflineApp.swift; sourceTree = "<group>"; };
+		7CE07D8E8955A98312D04055 /* FairPlayOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairPlayOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0DF81BA3FEF331B2AD934A /* KinescopeAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinescopeAPITests.swift; sourceTree = "<group>"; };
+		B15D4A6943200AAF20F89221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF47586C605F426789E6B7D5 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005183BC96947459D8255D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEAA7E9686D2A6F8F9034B9 /* FairPlayOfflineKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09858DBDE287727D19D73C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE07D8E8955A98312D04055 /* FairPlayOffline.app */,
+				443C4AFE730C80FD07E69FB3 /* FairPlayOfflineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197BF764900285A5940EC998 = {
+			isa = PBXGroup;
+			children = (
+				37372817F1CFDF7D68701987 /* FairPlayOffline */,
+				44E0FE5897142400F5EB80E9 /* FairPlayOfflineTests */,
+				D56353E435F4F4227F3BC237 /* Packages */,
+				09858DBDE287727D19D73C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37372817F1CFDF7D68701987 /* FairPlayOffline */ = {
+			isa = PBXGroup;
+			children = (
+				CF47586C605F426789E6B7D5 /* AppLogger.swift */,
+				663B0600AFB19E89FB48C70D /* AppModel.swift */,
+				19FA72DCC56641C71E430B1D /* Assets.xcassets */,
+				32FCB31B4AD4EEA703B5F024 /* Config.swift */,
+				B15D4A6943200AAF20F89221 /* ContentView.swift */,
+				6F56D4D0F61D86DEACD1B032 /* FairPlayOfflineApp.swift */,
+				501EE70FE1D7668725B91D1E /* Info.plist */,
+				636C7A179C99809FA04714FD /* KinescopeAPI.swift */,
+				6A71182717FF159276205CC0 /* KinescopeVideoStore.swift */,
+			);
+			path = FairPlayOffline;
+			sourceTree = "<group>";
+		};
+		44E0FE5897142400F5EB80E9 /* FairPlayOfflineTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0DF81BA3FEF331B2AD934A /* KinescopeAPITests.swift */,
+			);
+			path = FairPlayOfflineTests;
+			sourceTree = "<group>";
+		};
+		D56353E435F4F4227F3BC237 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3681357D2B552B6AB6A26160 /* FairPlayOfflineKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59C36107F8C838ACE4C88702 /* FairPlayOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A118BCF028283AE030FDB8 /* Build configuration list for PBXNativeTarget "FairPlayOffline" */;
+			buildPhases = (
+				0AB7CFAD7B1A75F15BC4C574 /* Sources */,
+				6AAB7B7A6C05B1486322E661 /* Resources */,
+				005183BC96947459D8255D70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FairPlayOffline;
+			packageProductDependencies = (
+				EBE9F5DEC4EB80C839A7D7A7 /* FairPlayOfflineKit */,
+			);
+			productName = FairPlayOffline;
+			productReference = 7CE07D8E8955A98312D04055 /* FairPlayOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A29EC56E4C994EF1275F1883 /* FairPlayOfflineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C72E27496C6045EB40414 /* Build configuration list for PBXNativeTarget "FairPlayOfflineTests" */;
+			buildPhases = (
+				380617C6EB28137DD214B349 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDF1E6DCFDD73D7CA944383 /* PBXTargetDependency */,
+			);
+			name = FairPlayOfflineTests;
+			packageProductDependencies = (
+			);
+			productName = FairPlayOfflineTests;
+			productReference = 443C4AFE730C80FD07E69FB3 /* FairPlayOfflineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B4D77DF013B1F8F0C25295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					59C36107F8C838ACE4C88702 = {
+						ProvisioningStyle = Automatic;
+					};
+					A29EC56E4C994EF1275F1883 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5FD4E7B762A6CEF27D785A3 /* Build configuration list for PBXProject "FairPlayOffline" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 197BF764900285A5940EC998;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				780D228DED0E82877F113C85 /* XCLocalSwiftPackageReference "FairPlayOfflineKit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59C36107F8C838ACE4C88702 /* FairPlayOffline */,
+				A29EC56E4C994EF1275F1883 /* FairPlayOfflineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAB7B7A6C05B1486322E661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9DCA78859B52DE370EA05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB7CFAD7B1A75F15BC4C574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBAE7DFC8E2FC1A95C1A393 /* AppLogger.swift in Sources */,
+				10EE632AB9E0874E9D54D7A1 /* AppModel.swift in Sources */,
+				EC6202C925F6069A4C495D3E /* Config.swift in Sources */,
+				584859962767AB81A7C58B74 /* ContentView.swift in Sources */,
+				8F3B99E2B773A5B1EE303240 /* FairPlayOfflineApp.swift in Sources */,
+				BBBFCD1F227563EA8525028F /* KinescopeAPI.swift in Sources */,
+				25A1BEC5334989AE17210303 /* KinescopeVideoStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380617C6EB28137DD214B349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B69B49159066C20FF486440 /* KinescopeAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBDF1E6DCFDD73D7CA944383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59C36107F8C838ACE4C88702 /* FairPlayOffline */;
+			targetProxy = 0DB24CF95A575DC1DFB3714F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F30FE7A05D4587438DF6A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kinescope.example.fairplayoffline.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairPlayOffline.app/FairPlayOffline";
+			};
+			name = Debug;
+		};
+		5580EB77CF3DA6885513BC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kinescope.example.fairplayoffline.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairPlayOffline.app/FairPlayOffline";
+			};
+			name = Release;
+		};
+		9C9546BE9C8BA5E3DC3781E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FairPlayOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kinescope.example.fairplayoffline;
+				PRODUCT_NAME = FairPlayOffline;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E9744253FC950D67C16D243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FairPlayOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kinescope.example.fairplayoffline;
+				PRODUCT_NAME = FairPlayOffline;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DDE86F801B6466F7925CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF240878BBD314EDFC985A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A118BCF028283AE030FDB8 /* Build configuration list for PBXNativeTarget "FairPlayOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9744253FC950D67C16D243 /* Debug */,
+				9C9546BE9C8BA5E3DC3781E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A34C72E27496C6045EB40414 /* Build configuration list for PBXNativeTarget "FairPlayOfflineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F30FE7A05D4587438DF6A42 /* Debug */,
+				5580EB77CF3DA6885513BC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5FD4E7B762A6CEF27D785A3 /* Build configuration list for PBXProject "FairPlayOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF240878BBD314EDFC985A88 /* Debug */,
+				C9DDE86F801B6466F7925CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		780D228DED0E82877F113C85 /* XCLocalSwiftPackageReference "FairPlayOfflineKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = FairPlayOfflineKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EBE9F5DEC4EB80C839A7D7A7 /* FairPlayOfflineKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FairPlayOfflineKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C8B4D77DF013B1F8F0C25295 /* Project object */;
+}
